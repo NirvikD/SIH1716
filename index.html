@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Language Recognition</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <div id="welcome-section" class="section">
+        <h1>Welcome to Sign Language Recognition</h1>
+        <p>This application helps translate sign language into text and speech in real-time.</p>
+        <button id="continue-button">Continue</button>
+    </div>
+
+    <div id="interpreter-section" class="section hidden">
+        <h1>Sign Language Interpreter</h1>
+        <video id="video" width="640" height="480" autoplay></video>
+        <br>
+        <div class="button-container">
+            <button id="start">Start</button>
+            <button id="stop">Stop</button>
+        </div>
+        <div id="output"></div>
+        <div id="textDisplay"></div>
+    </div>
+
+    <script src="static/script.js"></script>
+</body>
+</html>

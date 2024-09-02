@@ -1,0 +1,9 @@
+sign-language-interpreter/
+├── app.py
+├── model/
+│   └── model.h5
+├── static/
+│   ├── styles.css
+│   └── script.js
+└── templates/
+    └── index.html
